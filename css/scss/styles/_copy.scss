@@ -1,0 +1,47 @@
+/* copy */
+
+// body
+body {
+  color: $color-dark-gray;
+  font-family: $font-primary;
+  line-height: 1.5;
+}
+
+// baseline
+h1, h2, h3, h4, h5, h6, p, blockquote, form, table {
+  margin-bottom: $type-margin-bottom;
+}
+
+// links
+a {
+  text-decoration: none;
+  &:link {
+    color: $link-color;
+  }
+  &:hover {
+    color: $link-color-hover;
+  }
+  &:active {
+    color: $link-color-active;
+  }
+  &:visited {
+    color: $link-color-visited;
+  }
+}
+
+// small
+.small {
+  font-size: $font-size-small;
+  line-height: 1.6667;
+}
+
+// lead
+.lead {
+  font-size: $font-size-normal;
+  line-height: 1.1111;
+}
+
+// paragraph
+p {
+  font-size: $font-size-normal;
+}

@@ -1,0 +1,56 @@
+/* colors */
+
+// primary - 'merica
+$color-primary-one: #559dc4; // blue
+$color-primary-two: #d95752; // red
+$color-light-gray: #eeeeee;
+$color-dark-gray: #303034;
+$color-black: #000000;
+$color-white: #ffffff;
+
+// secondary - complete the specturm
+$color-secondary-one: #f2925d;    // orange
+$color-secondary-two: #eec768;    // yellow
+$color-secondary-three: #99bd62;  // green
+$color-secondary-four: #9683ba;   // purple
+
+/* typography */
+
+// font
+$font-primary: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+
+// color
+$font-color: #303034; // dark-gray
+
+// size
+$font-size-small: .750em;     // = 12px (12/16)
+$font-size: .875em;           // = 14px (14/16) h6, p
+$font-size-normal: 1em;       // = 16px (16/16) h5, .lead
+$font-size-medium: 1.125em;   // = 18px (18/16) h4
+$font-size-large: 1.5em;      // = 24px (24/16) h3
+$font-size-largest: 1.875em;  // = 30px (30/16) h2
+$font-size-super: 2.250em;    // = 36px (36/16) h1
+
+// baseline
+$type-margin-bottom: 16px;
+
+/* links */
+
+// color
+$link-color: #559dc4;         // blue
+$link-color-hover: #d95752;   // red
+$link-color-active: #9683ba;  // purple
+$link-color-visited: #9683ba; // purple
+
+/* layout */
+
+// max-width
+$max-width: 1120px;
+
+/* borders, paddings, margins */
+$border-radius: 2px;
+$border-width: 1px;
+$padding: 10px;
+$padding-medium: 25px;
+$padding-wide: 50px;
+

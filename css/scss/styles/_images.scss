@@ -1,0 +1,12 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: $border-radius;
+}
+.img-avatar { // avatar images should be square (100x100)
+  border-radius: 50px;
+  height: 75px;
+  width: 75px;
+}

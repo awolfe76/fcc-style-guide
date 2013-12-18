@@ -1,0 +1,17 @@
+.btn, a.btn {
+  background: $color-primary-one;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: $font-primary;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px;
+  text-transform: uppercase;
+
+  &:hover {
+    background: $color-primary-two;
+    color: inherit;
+  }
+}

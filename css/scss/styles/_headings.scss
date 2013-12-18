@@ -1,0 +1,26 @@
+/* headings */
+
+h1, .h1 {
+  font-size: $font-size-super;
+  line-height: 1.1111;
+}
+h2, .h2 {
+  font-size: $font-size-largest;
+  line-height: 1.3333;
+}
+h3, .h3 {
+  font-size: $font-size-large;
+  line-height: 1.6667;
+}
+h4, .h4 {
+  font-size: $font-size-medium;
+  line-height: 1.1111;
+}
+h5, .h5 {
+  font-size: $font-size-normal; 
+  line-height: 1.2500;
+}
+h6, .h6 {
+  font-size: $font-size;
+  line-height: 1.4286;
+}

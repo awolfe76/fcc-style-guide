@@ -1,0 +1,12 @@
+.typography {
+  background: #eeeeee;
+  .w-font {
+    background: $color-white;
+    .about {
+      padding: $padding;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,49 @@
+.colors {
+  background: #f5f5f5;
+  p {
+    margin-bottom: 0;
+  }
+  .about {
+    min-height: 100px;
+  }
+}
+.w-color {
+  background: $color-white;
+  border-radius: $border-radius;
+  .primary-one {
+    background: $color-primary-one;
+  }
+  .primary-two {
+    background: $color-primary-two;
+  }
+  .white {
+    background: $color-white;
+  }
+  .light-gray {
+    background: $color-light-gray;
+  }
+  .dark-gray {
+    background: $color-dark-gray;
+  }
+  .secondary-one {
+    background: $color-secondary-one;
+  }
+  .secondary-two {
+    background: $color-secondary-two;
+  }
+  .secondary-three {
+    background: $color-secondary-three;
+  }
+  .secondary-four {
+    background: $color-secondary-four;
+  }
+  .fade-75 {
+    opacity: .75;
+  }
+  .fade-50 {
+    opacity: .5;
+  }
+  .fade-25 {
+    opacity: .25;
+  }
+}
