@@ -932,6 +932,38 @@ hgroup {
   margin-bottom: 0;
 }
 
+header {
+  background: #303034;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 0;
+}
+header nav {
+  margin: 15px 0;
+}
+header a:link, header a:visited {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header a:hover {
+  border-bottom: 3px solid;
+}
+header h5.title {
+  display: inline-block;
+  margin: 15px 0 0;
+}
+header .subnav {
+  background: #559dc4;
+}
+header .subnav a:link, header .subnav a:visited {
+  color: #ffffff;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
