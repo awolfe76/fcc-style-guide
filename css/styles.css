@@ -36,10 +36,6 @@ textarea, table, td, th, code, pre, samp, div, p {
   font-style: italic;
 }
 
-.date {
-  color: rgba(0, 0, 0, 0.75);
-}
-
 .intro {
   font-size: 24px;
   margin-bottom: 25px;
@@ -49,6 +45,11 @@ textarea, table, td, th, code, pre, samp, div, p {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.categories li {
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px 0;
 }
 
 /* copy */
@@ -792,6 +793,11 @@ textarea.input-lg {
   color: #737373;
 }
 
+.form-search {
+  margin: 0 0 0 25px;
+  padding-top: 10px;
+}
+
 @media (min-width: 768px) {
   .form-inline .form-group {
     display: inline-block;
@@ -1046,14 +1052,23 @@ ul.content li:last-child {
 .blog .content-desc {
   margin-bottom: 50px;
 }
+.blog ul.content li {
+  padding: 20px 0;
+}
+.blog ul.content li:first-child {
+  padding-top: 0;
+}
 .blog ul.content .byline {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 footer {
   border-top: 1px solid #eeeeee;
   font-size: 14px;
   padding: 25px 0;
+}
+footer address {
+  margin-bottom: 25px;
 }
 
 .sr-only {
