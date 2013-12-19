@@ -40,6 +40,17 @@ textarea, table, td, th, code, pre, samp, div, p {
   color: rgba(0, 0, 0, 0.75);
 }
 
+.intro {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.no-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* copy */
 body {
   color: #303034;
@@ -1014,6 +1025,10 @@ ul.content li:last-child {
   border-bottom: none;
 }
 
+.categories {
+  font-size: 14px;
+}
+
 .content-desc .img-avatar {
   float: right;
 }
@@ -1026,6 +1041,19 @@ ul.content li:last-child {
 }
 .content-desc address {
   margin-bottom: 10px;
+}
+
+.blog .content-desc {
+  margin-bottom: 50px;
+}
+.blog ul.content .byline {
+  margin-top: 10px;
+}
+
+footer {
+  border-top: 1px solid #eeeeee;
+  font-size: 14px;
+  padding: 25px 0;
 }
 
 .sr-only {
