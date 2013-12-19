@@ -334,21 +334,40 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
-.btn, a.btn {
-  background: #559dc4;
+.btn {
+  background: #303034;
   border: none;
   border-radius: 2px;
   color: #ffffff;
   cursor: pointer;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   font-weight: bold;
-  line-height: 1;
-  padding: 10px;
+  padding: 5px 9px;
   text-transform: uppercase;
 }
-.btn:hover, a.btn:hover {
+.btn:hover {
   background: #d95752;
-  color: inherit;
+  color: #ffffff;
+}
+
+a.btn {
+  color: #ffffff;
+}
+
+.btn-info, a.btn {
+  background: #559dc4;
+}
+
+.btn-success {
+  background: #99bd62;
+}
+
+.btn-warning {
+  background: #f2925d;
+}
+
+.btn-danger {
+  background: #d95752;
 }
 
 fieldset {
