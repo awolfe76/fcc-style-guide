@@ -30,6 +30,16 @@ textarea, table, td, th, code, pre, samp, div, p {
   hyphens: auto;
 }
 
+/* global */
+.byline {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.75);
+}
+
 /* copy */
 body {
   color: #303034;
@@ -962,6 +972,60 @@ header .subnav {
 }
 header .subnav a:link, header .subnav a:visited {
   color: #ffffff;
+}
+
+.breadcrumb a:after {
+  content: ' \002F ';
+}
+
+.banner {
+  background: #303034 url("../img/device-unlocking.jpg") bottom left;
+  height: 300px;
+  position: relative;
+}
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner hgroup {
+  color: white;
+  margin-left: 15%;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 70%;
+}
+
+ul.content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.content li {
+  border-bottom: 1px solid #eeeeee;
+  margin: 0;
+  padding: 10px 0;
+}
+ul.content li p {
+  margin-bottom: 0;
+}
+ul.content li:last-child {
+  border-bottom: none;
+}
+
+.content-desc .img-avatar {
+  float: right;
+}
+.content-desc h3 {
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+.content-desc .byline {
+  margin-bottom: 5px;
+}
+.content-desc address {
+  margin-bottom: 10px;
 }
 
 .sr-only {

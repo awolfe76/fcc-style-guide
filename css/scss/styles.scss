@@ -2,6 +2,7 @@
 
 @import "variables";
 @import "reset";
+@import "global";
 
 @import "styles/copy";
 @import "styles/headings";
@@ -15,5 +16,9 @@
 @import "guide/typography";
 
 @import "components/header";
+@import "components/breadcrumb";
+@import "components/banner";
+@import "components/content-lists";
+@import "components/content-desc";
 
 @import "grid/grid";
