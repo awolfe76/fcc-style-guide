@@ -1,0 +1,72 @@
+{% include header.html %}
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <h5 class="title">FCC - ULS</h5>
+        </div>
+        <div class="col-md-10">
+          <nav class="pull-right">
+            <a href="#one">Search</a>
+            <a href="#two">Login</a>
+            <a href="#three">Register</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Results for <b>Call Sign like km</b></h4>
+        </div>
+        <div class="col-md-6">
+          <a class="btn pull-right">Refine Your Search</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Call Sign/Lease ID</th>
+                <th>Name</th>
+                <th>FRN</th>
+                <th>Radio Service</th>
+                <th>Status</th>
+                <th>Expiration Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a title="View Licensee" href="license.jsp?licKey=615361">KM0A</a></td>
+                <td>AMMANN, MARK J</td>
+                <td>0013116868</td>
+                <td>HA</td>
+                <td>Active</td>
+                <td>04/26/2015</td>
+              </tr>
+              <tr>
+                <td><a title="View Licensee" href="license.jsp?licKey=615362">KM0B</a></td>
+                <td>Hollingshead, Jules E</td>
+                <td>0005584875</td>
+                <td>HA</td>
+                <td>Active</td>
+                <td>03/19/2016</td>
+              </tr>
+              <tr>
+                <td><a title="View Licensee" href="license.jsp?licKey=3156729">KM0BSA</a></td>
+                <td>Central Missouri Radio Association</td>
+                <td>0007586985</td>
+                <td>HV</td>
+                <td>Active</td>
+                <td>12/29/2019</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+{% include components/footer.html %}

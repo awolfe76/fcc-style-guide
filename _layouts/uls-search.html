@@ -1,0 +1,56 @@
+{% include header.html %}
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <h5 class="title">FCC - ULS</h5>
+        </div>
+        <div class="col-md-10">
+          <nav class="pull-right">
+            <a href="#one">Search</a>
+            <a href="#two">Login</a>
+            <a href="#three">Register</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h5>License Search</h5>
+          <p>The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System. The License Search here provides access to the most basic attributes of a license. You can also specify more attributes combinations with the <a href="#search">Advanced Search</a> and search within services like <a href="#amateur">Amateur</a> using service-specific criteria. Please be aware that some combinations of search criteria may result in a longer wait.</p>
+          <form role="form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Search</label>
+              <div class="row">
+                <div class="col-xs-4">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search">
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn">Search</button>
+          </form>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Filters</h5>
+          <ul class="no-bullets categories">
+            <li><a href="#list">Aircraft</a></li>
+            <li><a href="#list">Amateur</a></li>
+            <li><a href="#list">Commercial/Restricted Permits</a></li>
+            <li><a href="#list">GMRS</a></li>
+            <li><a href="#list">Ship</a></li>
+            <li><a href="#list">Market Based</a></li>
+            <li><a href="#list">Site Based</a></li>
+            <li><a href="#list">Facility ID</a></li>
+            <li><a href="#list">Geographic</a></li>
+            <li><a href="#list">Buildout Deadline</a></li>
+            <li><a href="#list">Lease Specific</a></li>
+            <li><a href="#list">800 MHz Reconfiguration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{% include components/footer.html %}
