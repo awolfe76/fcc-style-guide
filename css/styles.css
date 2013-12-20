@@ -963,6 +963,7 @@ hgroup {
 header {
   background: #303034;
   color: white;
+  font-weight: bold;
   line-height: 1.5;
   padding: 0;
 }
@@ -972,7 +973,6 @@ header nav {
 header a:link, header a:visited {
   color: #ffffff;
   font-size: 14px;
-  font-weight: bold;
   margin-left: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -980,9 +980,12 @@ header a:link, header a:visited {
 header a:hover {
   border-bottom: 3px solid;
 }
-header h5.title {
+header h5.title, header p {
   display: inline-block;
   margin: 15px 0 0;
+}
+header p {
+  margin: 0;
 }
 header .subnav {
   background: #559dc4;

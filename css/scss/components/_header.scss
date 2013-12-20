@@ -1,6 +1,7 @@
 header {
   background: $color-dark-gray;
   color: $color-white;
+  font-weight: bold;
   line-height: 1.5;
   padding: 0;
   nav {
@@ -9,7 +10,6 @@ header {
   a:link, a:visited {
     color: #ffffff;
     font-size: 14px;
-    font-weight: bold;
     margin-left: 15px;
     text-decoration: none;
     text-transform: uppercase;
@@ -17,9 +17,12 @@ header {
   a:hover {
     border-bottom: 3px solid;
   }
-  h5.title {
+  h5.title, p {
     display: inline-block;
     margin: 15px 0 0;
+  }
+  p {
+    margin: 0;
   }
   .subnav {
     background: #559dc4;
