@@ -21,3 +21,12 @@
     padding: 10px 0;
   }
 }
+
+hr {
+  border: 0;
+  border-top: 1px solid $color-light-gray;
+  margin: 50px auto;
+  &.mini {
+    width: 100px;
+  }
+}

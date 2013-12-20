@@ -52,6 +52,15 @@ textarea, table, td, th, code, pre, samp, div, p {
   padding: 10px 0;
 }
 
+hr {
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  margin: 50px auto;
+}
+hr.mini {
+  width: 100px;
+}
+
 /* copy */
 body {
   color: #303034;
@@ -955,7 +964,6 @@ header {
   background: #303034;
   color: white;
   line-height: 1.5;
-  margin-bottom: 20px;
   padding: 0;
 }
 header nav {
