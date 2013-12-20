@@ -4,6 +4,7 @@
 body {
   color: $color-dark-gray;
   font-family: $font-primary;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -35,13 +36,6 @@ a {
   line-height: 1.6667;
 }
 
-// lead
-.lead {
-  font-size: $font-size-normal;
-  line-height: 1.1111;
-}
-
 // paragraph
 p {
-  font-size: $font-size-normal;
 }

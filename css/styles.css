@@ -32,12 +32,12 @@ textarea, table, td, th, code, pre, samp, div, p {
 
 /* global */
 .byline {
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
 }
 
 .intro {
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 25px;
 }
 
@@ -56,6 +56,7 @@ textarea, table, td, th, code, pre, samp, div, p {
 body {
   color: #303034;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -82,15 +83,6 @@ a:visited {
 .small {
   font-size: 0.75em;
   line-height: 1.6667;
-}
-
-.lead {
-  font-size: 1em;
-  line-height: 1.1111;
-}
-
-p {
-  font-size: 1em;
 }
 
 /* headings */
