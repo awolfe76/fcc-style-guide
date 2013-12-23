@@ -32,7 +32,7 @@ textarea, table, td, th, code, pre, samp, div, p {
 
 /* global */
 .byline {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -65,7 +65,7 @@ hr.mini {
 body {
   color: #303034;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -977,6 +977,9 @@ header a:link, header a:visited {
   text-decoration: none;
   text-transform: uppercase;
 }
+header a:link.active, header a:visited.active {
+  border-bottom: 3px solid;
+}
 header a:hover {
   border-bottom: 3px solid;
 }
@@ -992,6 +995,9 @@ header .subnav {
 }
 header .subnav a:link, header .subnav a:visited {
   color: #ffffff;
+}
+header .subnav a:link.active, header .subnav a:visited.active {
+  border-bottom: 3px solid;
 }
 
 .breadcrumb a:after {

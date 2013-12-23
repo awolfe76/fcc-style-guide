@@ -13,6 +13,9 @@ header {
     margin-left: 15px;
     text-decoration: none;
     text-transform: uppercase;
+    &.active {
+      border-bottom: 3px solid;
+    }
   }
   a:hover {
     border-bottom: 3px solid;
@@ -29,6 +32,9 @@ header {
 
     a:link, a:visited {
       color: #ffffff;
+      &.active {
+        border-bottom: 3px solid;
+      }
     }
   }
 }
