@@ -1,6 +1,6 @@
 .banner {
   background: $color-dark-gray url('../img/device-unlocking.jpg') bottom left;
-  height: 300px;
+  height: 500px;
   position: relative;
   img {
     position: absolute;
@@ -11,8 +11,7 @@
     color: $color-white;
     margin-left: 15%;
     position: absolute;
-    text-align: center;
-    top: 50px;
+    top: 150px;
     width: 70%;
   }
 }

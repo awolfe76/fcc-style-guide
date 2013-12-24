@@ -885,7 +885,6 @@ section {
 
 hgroup {
   margin-bottom: 10px;
-  text-align: center;
 }
 
 .detail {
@@ -1006,7 +1005,7 @@ header .subnav a:link.active, header .subnav a:visited.active {
 
 .banner {
   background: #303034 url("../img/device-unlocking.jpg") bottom left;
-  height: 300px;
+  height: 500px;
   position: relative;
 }
 .banner img {
@@ -1018,8 +1017,7 @@ header .subnav a:link.active, header .subnav a:visited.active {
   color: white;
   margin-left: 15%;
   position: absolute;
-  text-align: center;
-  top: 50px;
+  top: 150px;
   width: 70%;
 }
 
