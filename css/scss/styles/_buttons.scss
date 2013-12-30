@@ -10,7 +10,8 @@
   text-transform: uppercase;
 
   &:hover {
-    background: $color-primary-two;
+    // background: $color-primary-two;
+    opacity: .75;
     color: #ffffff;
   }
 }

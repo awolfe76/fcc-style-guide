@@ -35,6 +35,9 @@ textarea, table, td, th, code, pre, samp, div, p {
   font-size: 14px;
   font-style: italic;
 }
+.byline .updated {
+  color: #d95752;
+}
 
 .intro {
   font-size: 18px;
@@ -58,7 +61,18 @@ hr {
   margin: 50px auto;
 }
 hr.mini {
+  margin: 50px 0;
   width: 100px;
+}
+
+.content-desc {
+  margin-bottom: 2%;
+}
+
+.topic .content-desc {
+  bottom: 30px;
+  margin: 0 25%;
+  position: absolute;
 }
 
 /* copy */
@@ -369,7 +383,7 @@ table th[class*="col-"] {
   text-transform: uppercase;
 }
 .btn:hover {
-  background: #d95752;
+  opacity: .75;
   color: #ffffff;
 }
 
@@ -876,7 +890,7 @@ img {
 }
 
 section {
-  padding: 50px 0;
+  padding: 2% 0;
 }
 
 .w-color, .w-font {
@@ -1004,8 +1018,10 @@ header .subnav a:link.active, header .subnav a:visited.active {
 }
 
 .banner {
-  background: #303034 url("../img/device-unlocking.jpg") bottom left;
-  height: 500px;
+  background: #eeeeee;
+  color: white;
+  height: 400px;
+  margin-bottom: 40px;
   position: relative;
 }
 .banner img {
@@ -1014,7 +1030,6 @@ header .subnav a:link.active, header .subnav a:visited.active {
   left: 0;
 }
 .banner hgroup {
-  color: white;
   margin-left: 15%;
   position: absolute;
   top: 150px;
@@ -1038,8 +1053,12 @@ ul.content li:last-child {
   border-bottom: none;
 }
 
-.categories {
+.categories a {
+  border-radius: 5px;
+  border: 1px solid #dddddd;
   font-size: 14px;
+  margin-right: 3px;
+  padding: 5px;
 }
 
 .content-desc .img-avatar {
@@ -1066,6 +1085,16 @@ ul.content li:last-child {
   padding-top: 0;
 }
 .blog ul.content .byline {
+  margin-top: 5px;
+}
+
+.map ul.content li {
+  padding: 20px 0;
+}
+.map ul.content li:first-child {
+  padding-top: 0;
+}
+.map ul.content .byline {
   margin-top: 5px;
 }
 
@@ -2521,4 +2550,7 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+.container {
+  width: 98%;
 }

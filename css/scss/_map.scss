@@ -1,0 +1,14 @@
+.map {
+
+  ul.content {
+    li {
+      padding: 20px 0;
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+    .byline {
+    margin-top: 5px;
+    }
+  }
+}

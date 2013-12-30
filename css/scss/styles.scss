@@ -22,7 +22,12 @@
 @import "components/content-desc";
 
 @import "blog";
+@import "map";
 
 @import "components/footer";
 
 @import "grid/grid";
+
+.container {
+  width: 98%;
+}
