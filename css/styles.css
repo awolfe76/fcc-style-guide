@@ -1088,6 +1088,10 @@ ul.content li:last-child {
   margin-top: 5px;
 }
 
+#map {
+  height: 550px;
+}
+
 .map ul.content li {
   padding: 20px 0;
 }

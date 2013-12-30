@@ -70,4 +70,18 @@
       </div>
     </div>
   </section>
+  <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
+  <![endif]-->
+  <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // add the map
+      var map = L.mapbox.map('map', 'fcc.tribal-mobility-fund-phase-i-eligible-areas', {attributionControl: false})
+        .setView([40.833333, -98.583333], 4);
+    });
+  </script>
+
 {% include components/footer.html %}
