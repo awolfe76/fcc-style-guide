@@ -39,3 +39,11 @@ a {
 // paragraph
 p {
 }
+pre { 
+  border-radius: 2px;
+  display: block;
+  padding: 20px;
+}
+pre, code {
+  margin: 0;
+}
